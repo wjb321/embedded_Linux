@@ -1,2 +1,16 @@
 the password for linux is:
 wjb321
+when push files or projects first time on github with different computers,
+should do the authentication, normally using the personal access token can make it work.
+the procedure is:
+git init
+git add .
+git commit -m "what updated"
+git push origin -u master
+**then here will aske you to type the user name and the passwd, the passwd use the new gene
+rated token is ok**
+
+git clone "http://github.com/"
+Username: wjb321
+Password: "newly generated token"
+
